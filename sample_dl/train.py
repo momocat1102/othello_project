@@ -18,12 +18,12 @@ BOARD_SIZE=8
 #     'verbose': True
 # }
 Iter = 20
-compare = 3
+compare = 10
 bot = BOT(board_size=BOARD_SIZE)
 args={
-    'num_of_generate_data_for_train': 5,
-    'epochs': 2,
-    'batch_size': 2,
+    'num_of_generate_data_for_train': 100,
+    'epochs': 10,
+    'batch_size': 8,
     'verbose': False
 }
 bot2 = BOT(board_size=BOARD_SIZE)
